@@ -1,0 +1,61 @@
+@media screen and (min-width:360px) and (max-width: 768px){
+
+	.work-part {
+	    float: left;
+	    width: 100%;
+	    margin: 0 0 40px 0;
+	}
+
+	header aside {
+		margin-bottom: 20px;
+		float: none;
+	}
+
+	header article {
+		width: 100%;
+		float: none;
+	}
+
+	header article p {
+		text-align: center;
+		float: none;
+	}
+
+	aside #logo {
+    	display: block;
+    	text-align: center;
+	}
+
+	header article span {
+		text-align: center;
+	}
+
+	footer .social-media li {
+		margin-right: 5%;
+	}
+
+	footer .social-media {
+    	width: 100%;
+	}
+}
+
+
+@media screen and (min-width:769px) and (max-width: 1200px) {
+	.work-part {
+	    float: left;
+	    margin-right: 2.5%;
+	    width: calc((100% - 5%) / 3);
+	}
+
+	.work-part:last-of-type {
+		margin-right: 0;
+	}
+
+	.work-part a {
+		font-size: 18px;
+	}
+
+	footer .social-media {
+    	width:35%;
+	}
+}
